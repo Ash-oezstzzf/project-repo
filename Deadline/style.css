@@ -1,0 +1,64 @@
+body {
+     background-image: url('images.jpg');
+     background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    width: 80%;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
